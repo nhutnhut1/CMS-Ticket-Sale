@@ -1,0 +1,9 @@
+@import "scss/_color.scss";
+@import "scss/_sizing.scss";
+
+.app__dashboard {
+    height: 100px;
+    overflow-y: scroll;
+    width: 100%;
+    background-color: red;
+}
