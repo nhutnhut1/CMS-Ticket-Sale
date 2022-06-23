@@ -1,9 +1,10 @@
 @import "scss/color";
 
 .app__search {
-    background-color: #EDE6E6;
+    background-color: $textbox;
     height: 48px;
-    width: 440px;
+    width: 100%;
+    max-width: 440px;
     border-radius: 12px;
     position: relative;
     padding: 0 12px;

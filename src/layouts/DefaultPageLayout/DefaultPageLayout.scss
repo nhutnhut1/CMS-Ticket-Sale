@@ -18,7 +18,9 @@
 }
 
 .content {
-    height: 100%;
+    height: calc(100vh - $default-header-height);
     width: 100%;
     margin-left: $sidebar-width;
+    overflow-y: scroll;
+    padding-bottom: 30px;
 }

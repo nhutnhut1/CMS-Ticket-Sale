@@ -28,3 +28,15 @@ input {
         font-style: italic;
     }
 }
+
+html *::-webkit-scrollbar {
+   display: none;
+}
+
+html *::-webkit-scrollbar-thumb {
+   display: none;
+}
+
+html *::-webkit-scrollbar-track {
+    display: none;
+}
